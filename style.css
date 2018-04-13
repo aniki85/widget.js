@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("man-person.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+
+.item {
+  font-family: impact;
+  color: #1d1d1d;
+  background-color: #ccc;
+  text-align: center;
+  font-size: 5rem;
+  padding: 2rem 0;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: calc(25% - 2rem);
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.addBtn{
+  background-color: #62488F;
+  border: 0;
+  color: white;
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-top: 35px;
+  border-radius: 60px;
+}
+.remove{
+  margin-top: 13px;
+  background-color: #f2f205;
+  float: right;
+  clear: both;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+ul{
+  list-style: none;
+  text-align: left;
+  margin-left: 17px
+}
+.addBtn{
+  width: 200px;
+  height: 30px;
+  margin-left: 17px;
+}
+.wrap{
+    width: 720px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-size: 20px;
+}
+
+.wrap p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+a{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  left: calc(50% - 50px);
+}
+
+.wrap a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.wrap a:hover
+{
+    color: #39dc79;
+}
+.wrap .addBtn:hover
+{
+    color: #39dc79;
+}
+
+/*==========================================================================*/
+/*horloge*/
+#demo {
+  font-size: 80px;
+  color: #39dc79;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  left: calc(75% - 50px);
+}
+.Article a{
+  text-transform: uppercase;
+  width: 200px;
+  height: 30px;
+  margin-left: 17px;
+  left: calc(75% - 50px);
+}
+
+#footer a{
+  font-size: 15px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  left: calc(20% - 50px);
+}
+#position{
+  font-size: 15px;
+  color: #39dc79;
+  position: absolute;
+  text-align: center;
+}
